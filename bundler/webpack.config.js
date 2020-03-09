@@ -12,7 +12,8 @@ module.exports = {
     {
         contentBase: './dist',
         open: true,
-        host: '10.93.180.23'
+        host: '0.0.0.0',
+        useLocalIp: true
     },
     entry: path.resolve(__dirname, '../src/index.js'),
     output:
